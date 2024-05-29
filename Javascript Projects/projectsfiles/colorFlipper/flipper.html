@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,
+body{
+   margin: 0;
+   font-family: 'Apple Chancery', cursive;
+}
+.heading{
+    text-align: left;
+    font-size: 2em;
+    color: crimson;
+    margin: 5px 0px 5px 15px;
+}
+.color{
+    float: right;
+    margin-right: 15px;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+    border-top:3px solid #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: none;
+    cursor: pointer;
+    padding: 20px 80px;
+    background-color: rgb(219, 54, 54);
+    color: white;
+    border-radius: 15px;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+</style>
+<body>
+    <div class="heading">Color Flipper
+        <span class="color">#FFFFFF</span>
+    </div>
+
+    <div class="container">
+         <div class="btn-container">
+              <button class="btn">click me</button>
+         </div>
+    </div>
+
+    <script>
+        const btn = document.querySelector(".btn")
+        const colortext = document.querySelector(".color")
+        const wrap_contain = document.querySelector(".container")
+        const hex = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']
+
+        btn.addEventListener("click",()=>{
+            let hexcolor = '#'
+            for(i=0;i<6;i++){
+            hexcolor += randomValue()
+            console.log(hexcolor)
+            }
+            wrap_contain.style.backgroundColor = hexcolor
+            colortext.innerHTML = hexcolor
+        })
+
+        function randomValue(){
+       let randInd = Math.floor(Math.random() * 16)
+       return hex[randInd]
+        }
+
+    </script>
+</body>
+</html>

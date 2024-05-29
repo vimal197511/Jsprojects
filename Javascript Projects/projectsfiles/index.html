@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
+</head>
+<body>
+     <nav id="nav">
+        <div class="navtop">
+            <div class="navitem">
+           <img src="./images/sneakers.png " alt="">
+            </div>
+            <div class="navitem">
+                <div class="search">
+                    <input type="text"  class="searchinput" placeholder="search....">
+                    <img src="./images/search.png" width="20" height="20" class="searchicon" alt="">
+                </div>
+            </div>
+            <div class="navitem">
+            <span class="limitedoffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navbottom">
+            <h3 class="menuitem">AIR FORCE</h3>
+            <h3 class="menuitem">JORDAN</h3>
+            <h3 class="menuitem">BLAZER</h3>
+            <h3 class="menuitem">CRATER</h3>
+            <h3 class="menuitem">HIPPE</h3>
+        </div>
+     </nav>
+
+     <div class="slider">
+        <div class="sliderwrapper">
+            <div class="slideritem">
+                <img src="./images/air.png" class="sliderimg" alt="">
+                <div class="sliderbg"></div>
+                <h1 class="slidertitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderprice">$119</h2>
+                <a href="#product">
+                    <button class="buybtn">BUY NOW!</button>
+                </a>
+            </div>
+
+            <div class="slideritem">
+                <img src="./images/jordan.png" class="sliderimg" alt="">
+                <div class="sliderbg"></div>
+                <h1 class="slidertitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderprice">$149</h2>
+                <a href="#product"> 
+                    <button class="buybtn">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./images/blazer.png" class="sliderimg" alt="">
+                <div class="sliderbg"></div>
+                <h1 class="slidertitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderprice">$109</h2>
+                <a href="#product">
+                    <button class="buybtn">BUY NOW!</button>
+                </a>
+            </div>
+
+            <div class="slideritem">
+                <img src="./images/crater.png" class="sliderimg" alt="">
+                <div class="sliderbg"></div>
+                <h1 class="slidertitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderprice">$129</h2>
+                <a href="#product">
+                    <button class="buybtn">BUY NOW!</button>
+                </a>
+            </div>
+
+            <div class="slideritem">
+                <img src="./images/hippie.png" class="sliderimg" alt="">
+                <div class="sliderbg"></div>
+                <h1 class="slidertitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderprice">$99</h2>
+                <a href="#product">
+                    <button class="buybtn">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+     </div>
+
+     <div class="features">
+        <div class="feature">
+            <img src="./images/shipping.png" alt="" class="featureicon">
+            <span class="featuretitle">FREE SHIPPING</span>
+            <span class="featuredesc">Free worldwide shipping on all orders.</span>
+        </div>
+
+        <div class="feature">
+            <img src="./images/return.png" alt="" class="featureicon">
+            <span class="featuretitle">30 DAYS RETURN</span>
+            <span class="featuredesc">No question return and easy refund in 14 days.</span>
+        </div>
+
+     <div class="feature">
+        <img src="./images/gift.png" alt="" class="featureicon">
+        <span class="featuretitle">GIFT CARDS</span>
+        <span class="featuredesc">Buy gift cards and use coupon codes easily.</span>
+    </div>
+
+    <div class="feature">
+        <img src="./images/contact.png" alt="" class="featureicon">
+        <span class="featuretitle">CONTACT US!</span>
+        <span class="featuredesc">Keep in touch via email and support system.</span>
+    </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./images/air.png" alt="" class="productimg">
+        <div class="productdetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productprice">$199</h2>
+            <p class="productdesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+        <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="sizes">
+            <div class="size">42</div>
+            <div class="size">43</div>
+            <div class="size">44</div>
+        </div>
+        <button class="productbtn">BUY NOW!</button>
+    </div>
+    <div class="payment">
+        <h1 class="paytitle">
+            Personal Information
+        </h1>
+        <label>Name and Surname</label>
+        <input type="text" placeholder="Name" class="payintput">
+        <label>Phone Number</label>
+        <input type="text" placeholder="+1 234 5678" class="payintput">
+        <label >Address</label>
+        <input type="text" placeholder="email" class="payintput">
+        <h1 class="paytitle">Card Information</h1>
+        <div class="cardicons">
+            <img src="./images/visa.png" alt="" width="40" class="cardicon">
+            <img src="./images/master.png" alt="" width="40" class="cardicon">
+        </div>
+        <input type="password" placeholder="card-number" class="payintput">
+        <div class="cardInfo">
+          <input type="text" placeholder="mm" class="payintput sm">
+          <input type="text" placeholder="yyyy" class="payintput sm">
+          <input type="text" placeholder="cvv" class="payintput sm">
+      </div>
+        <button class="paybtn">Checkout!</button>
+         <span class="close">X</span>
+    </div>
+    </div>
+
+    <div class="gallery">
+      <div class="galleryitem">
+        <h1 class="gallerytitle">Be Yourself</h1>
+        <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" class="galleryImg">
+      </div>
+      <div class="galleryitem">
+        <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="galleryImg">
+        <h1 class="gallerytitle">This is the First Day of Your New Life</h1>
+    </div>
+    <div class="galleryitem">
+        <h1 class="gallerytitle">Just Do it!</h1>
+        <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="galleryImg">
+    </div>
+    </div>
+
+    <div class="newseason">
+      <div class="nsItem">
+        <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="nsImg">
+    </div>
+    <div class="nsItem">
+      <h3 class="nstitlesm">WINNER NEW ARRIVALS</h3>
+      <h1 class="nstitle">New Season</h1>
+      <h1 class="nstitle">New Collection</h1>
+      <a href="#nav">
+        <button class="nsbtn">CHOOSE YOUR STYLE</button>
+      </a>
+    </div>
+    <div class="nsItem">
+      <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          alt="" class="nsImg">
+  </div>
+    </div>
+
+    <footer>
+      <div class="footerLeft">
+        <div class="footermenu">
+          <h1 class="fmenutitle">About Us</h1>
+          <ul class="flist">
+            <li class="flistitem">Company</li>
+            <li class="flistitem">Contact</li>
+            <li class="flistitem">Carrers</li>
+            <li class="flistitem">Affiliates</li>
+            <li class="flistitem">Stores</li>
+          </ul>
+        </div>
+
+        <div class="footermenu">
+          <h1 class="fmenutitle">Useful Links</h1>
+          <ul class="flist">
+            <li class="flistitem">Support</li>
+            <li class="flistitem">Refund</li>
+            <li class="flistitem">FAQ</li>
+            <li class="flistitem">Feedback</li>
+            <li class="flistitem">Stories</li>
+          </ul>
+        </div>
+
+        <div class="footermenu">
+          <h1 class="fmenutitle">Products</h1>
+          <ul class="flist">
+            <li class="flistitem">Air Force</li>
+            <li class="flistitem">Air Jordan</li>
+            <li class="flistitem">Blazer</li>
+            <li class="flistitem">Crater</li>
+            <li class="flistitem">Hippie</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerRight">
+        <div class="footerRightMenu">
+          <h1 class="fmenutitle">Subscribe to our newsletter</h1>
+          <div class="fmail">
+            <input type="text" placeholder="your@email.com" class="finput">
+            <button class="fbtn">Join!</button>
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <h1 class="fmenutitle">Follow Us</h1>
+          <div class="ficons">
+            <img src="./images/facebook.png" alt="" class="ficon">
+            <img src="./images/twitter.png" alt="" class="ficon">
+            <img src="./images/instagram.png" alt="" class="ficon">
+            <img src="./images/whatsapp.png" alt="" class="ficon">
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <span class="copyRight">@vimal . All rights reserved. 2024.</span>
+        </div>
+      </div>
+    </footer> -
+     <script>
+        const sliderwrap = document.querySelector(".sliderwrapper")
+const menuitems = document.querySelectorAll(".menuitem")
+
+const products = [
+  {
+    id: 1,
+    title: "Air Force",
+    price: 119,
+    colors: [
+      {
+        code: "black",
+        img: "./images/air.png",
+      },
+      {
+        code: "darkblue",
+        img: "./images/air2.png",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Air Jordan",
+    price: 149,
+    colors: [
+      {
+        code: "lightgray",
+        img: "./images/jordan.png",
+      },
+      {
+        code: "green",
+        img: "./images/jordan2.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Blazer",
+    price: 109,
+    colors: [
+      {
+        code: "lightgray",
+        img: "./images/blazer.png",
+      },
+      {
+        code: "green",
+        img: "./images/blazer2.png",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Crater",
+    price: 129,
+    colors: [
+      {
+        code: "black",
+        img: "./images/crater.png",
+      },
+      {
+        code: "lightgray",
+        img: "./images/crater2.png",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Hippie",
+    price: 99,
+    colors: [
+      {
+        code: "gray",
+        img: "./images/hippie.png",
+      },
+      {
+        code: "black",
+        img: "./images/hippie2.png",
+      },
+    ],
+  },
+];
+
+let choosenProduct = products[0]
+
+const currProductimg = document.querySelector(".productimg")
+const currProductTitle = document.querySelector(".productTitle")
+const currProductPrice = document.querySelector(".productprice")
+const currProductcolor = document.querySelectorAll(".color")
+const currProductsize = document.querySelectorAll(".size")
+
+menuitems.forEach((item,ind)=>{
+    item.addEventListener("click",()=>{
+        // console.log("clicked",ind)
+        sliderwrap.style.transform = `translateX(${-100 * ind}vw)`;
+
+        choosenProduct = products[ind]
+        console.log(choosenProduct)
+
+        currProductTitle.textContent = choosenProduct.title
+        currProductPrice.textContent = "$" + choosenProduct.price
+        currProductimg.src = choosenProduct.colors[0].img
+
+       currProductcolor.forEach((col,index)=>{
+     const r =   col.style.backgroundColor = choosenProduct.colors[index].code
+     console.log(r)
+       })
+    })
+})
+
+     currProductcolor.forEach((col,index)=>{
+        col.addEventListener("click",()=>{
+            const i = currProductimg.src = choosenProduct.colors[index].img
+            console.log("images", i ,"indexzzzz" , index)
+        })
+     })
+
+
+     currProductsize.forEach((size,index)=>{
+        size.addEventListener("click",()=>{
+
+            currProductsize.forEach((size) =>{
+                size.style.backgroundColor = "white";
+            size.style.color = "black";
+            })
+
+            size.style.backgroundColor = "black"
+            size.style.color = "white"
+        })
+     })
+
+     const productbtn = document.querySelector(".productbtn")
+     const payment = document.querySelector(".payment")
+     const closes = document.querySelector(".close")
+
+     productbtn.addEventListener("click",()=>{
+      payment.style.display = "flex"
+     })
+
+     closes.addEventListener("click",()=>{
+      payment.style.display = "none"
+     })
+     </script>
+</body>
+</html>
